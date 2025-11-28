@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RF Outdoor Link Planner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h1>RF Link Planner</h1>
+                <p>Plan point-to-point RF links</p>
+            </div>
+            <div class="sidebar-content">
+                <div class="section">
+                    <div class="section-title">Mode</div>
+                    <div class="mode-buttons">
+                        <button class="mode-btn active" data-mode="tower">Add Tower</button>
+                        <button class="mode-btn" data-mode="link">Create Link</button>
+                    </div>
+                    <div class="instruction" id="instruction">
+                        Click on the map to place a tower
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">Towers (<span id="tower-count">0</span>)</div>
+                    <div class="tower-list" id="tower-list">
+                        <div class="empty-state">
+                            <div class="empty-state-icon">📡</div>
+                            <div>No towers placed yet</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">Links (<span id="link-count">0</span>)</div>
+                    <div class="link-list" id="link-list">
+                        <div class="empty-state">
+                            <div class="empty-state-icon">🔗</div>
+                            <div>No links created yet</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <button class="btn btn-danger" onclick="clearAll()">Clear All</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <div class="map-overlay" id="map-overlay">
+                Click on the map to add towers
+            </div>
+            <div id="map"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
