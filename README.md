@@ -162,16 +162,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👤 Author
-
-Your Name - [@yourhandle](https://twitter.com/yourhandle)
-
-Project Link: [https://github.com/yourusername/rf-link-planner](https://github.com/yourusername/rf-link-planner)
-
 ## 🙏 Acknowledgments
 
 - [Leaflet.js](https://leafletjs.com/) - Interactive map library
@@ -182,8 +172,7 @@ Project Link: [https://github.com/yourusername/rf-link-planner](https://github.c
 
 If you encounter any issues or have questions:
 - Open an issue on GitHub
-- Email: your.email@example.com
+- Email: mohammadabbasiiit@gmail.com
 
 ---
-
-**Made with ❤️ for RF Engineers and Network Planners**
+Made with ❤️ 
